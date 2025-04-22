@@ -1,33 +1,23 @@
-# draggableResizableModal
+# DragResizeModal 可拖拽縮放模態框組件
 
-This template should help get you started developing with Vue 3 in Vite.
+## 核心功能
 
-## Recommended IDE Setup
+### 🖱 交互特性
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **標題拖拽移動** - 透過標題欄實現模態框自由拖動定位
+- **八向縮放手柄** - 支援四邊+四角的尺寸調整
+- **動態約束控制** - 自定義最小寬高限制（默認最小寬度400px）
+- **邊界檢測** - 自動限制在視窗範圍內移動
 
-## Type Support for `.vue` Imports in TS
+### 🎨 樣式擴展
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- 繼承 Ant Design Modal 所有樣式特性
+- 自定義調整手柄樣式
+- 靈活的插槽覆寫機制
 
-## Customize configuration
+## 快速使用
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
+```bash
+npm install 
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
 ```
